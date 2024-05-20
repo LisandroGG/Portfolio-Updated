@@ -1,0 +1,28 @@
+:root{
+  --body_background:#f1f0f6;
+  --content_background: #ffffff;
+  --border: #84848f6b;
+  --text: black;
+  --nav_hover: #e6e8eb;
+
+}
+
+[data-theme="dark"] {
+  --body_background:#161b28;
+  --content_background:#1d2333;
+  --border: #84848f6b;
+  --text: white;
+  --nav_hover:#161b28;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: var(--body_background);
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+

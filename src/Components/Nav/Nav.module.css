@@ -1,0 +1,129 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: var(--content_background);
+}
+
+
+
+.name{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.img img{
+    border-radius: 23px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 0px;
+    border-radius: 20px;
+    color: var(--text);
+    cursor: pointer;
+    
+    &:hover{
+        transition: 0.3s;
+        background-color: var(--nav_hover);
+    }
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+    li{
+        border-radius: 10px;
+        padding: .5em;
+        font-size: 1.2em;
+        font-weight: 500;
+
+        &:hover{
+            transition: 0.3s;
+            background-color: var(--nav_hover);
+        }
+
+        a{
+            text-decoration: none;
+            color: var(--text)
+        }
+    } 
+}
+
+.modi{
+    margin-left: 25px;
+}
+
+
+.containerbtn{
+    display: flex;
+    align-items: center;
+
+    .cv{
+        margin-right: 5px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: .5em;
+        cursor: pointer;
+        border: 1px solid var(--text);
+        text-decoration: none;
+        color: var(--text);
+
+        &:hover{
+            transition: 0.3s;
+            background-color: var(--text);
+            color: var(--content_background);
+        }
+    }
+
+    .mode{
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        color: var(--text);
+        border: none;
+        padding: .8em;
+        cursor: pointer;
+        background-color: var(--content_background);
+
+        &:hover{
+            transition: 0.3s;
+            background-color: var(--nav_hover);
+        }
+
+            span{
+                font-size: 1.2em;
+                text-align: center;
+                font-weight: 500;
+                font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+                &:hover{
+                    border-bottom: 1px solid var(--text);
+                }
+            
+            }
+    }
+}
+
+@media (850px > width){
+
+    .nav{
+        padding: 0px 0px
+    }
+    .menu{
+        display: none;
+    }
+}
+
+@media (413px > width){
+    .cv{
+        display: none;
+    }
+}

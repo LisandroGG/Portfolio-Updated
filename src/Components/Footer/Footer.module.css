@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: var(--content_background);
+    align-items: center;
+    
+    span{
+        font-weight: 600;
+        color: var(--text)
+    }
+}
+
+.links a{
+    margin: 5px;
+
+    &:hover{
+        border-bottom: 2px solid var(--text);
+    }
+}
+
+@media (850px > width){
+    .footer{
+        padding: 10px 5px;
+    }
+    .links a{
+        margin: 3px
+    }
+}
+
+@media (325px > width){
+    .container{
+        display:none
+    }
+    .footer{
+        padding: 15px 5px;
+        justify-content: center;
+    }
+}
