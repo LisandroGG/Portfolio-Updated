@@ -14,7 +14,7 @@ const Nav = () => {
                 <span className={style.img}><img src={lisandro} width='47px' alt='Lisandro foto'></img></span>
                 <span className={style.name}>
                     <span style={{fontWeight: '700', fontSize: '18px'}}>Lisandro Pereyra</span>
-                    <span style={{fontWeight: '400', fontSize: '13px'}}>Frontend Developer ✨</span>
+                    <span style={{fontWeight: '400', fontSize: '13px'}}>Fullstack Developer ✨</span>
                 </span>
             </div>
 
@@ -27,7 +27,7 @@ const Nav = () => {
             </div>
 
             <div className={style.containerbtn}>
-                <a href='https://docs.google.com/document/d/1oz1mp9AqcTbX_tCzTXtXtG0f018a8PuE/preview'  target='_blank' className={style.cv}>Descargar CV</a>
+                <a href='https://docs.google.com/document/d/1oz1mp9AqcTbX_tCzTXtXtG0f018a8PuE/edit?usp=sharing&ouid=114444473455443716196&rtpof=true&sd=true'  target='_blank' className={style.cv}>Descargar CV</a>
                 <button onClick={toggleTheme} className={style.mode}>
                 <span>Modo</span>
                 {isDarkMode ? 

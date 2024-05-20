@@ -4,6 +4,8 @@
   --border: #84848f6b;
   --text: black;
   --nav_hover: #e6e8eb;
+  --form: #19e619;
+  --form_hover: rgb(4, 220, 4);
 
 }
 
@@ -13,6 +15,8 @@
   --border: #84848f6b;
   --text: white;
   --nav_hover:#161b28;
+  --form: #00ff00;
+  --form_hover: #00ff00c2;
 }
 
 
