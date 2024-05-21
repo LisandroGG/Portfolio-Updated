@@ -26,6 +26,24 @@
   scroll-behavior: smooth
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  scrollbar-gutter: auto;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--content_background);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: var(--nav_hover)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border);
+}
+
 body{
   background-color: var(--body_background);
   font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
