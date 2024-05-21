@@ -1,10 +1,48 @@
 import style from '../Contact/Contact.module.css'
 import { useTheme } from '../../Context/Theme';
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react';
+import Swal from 'sweetalert2'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+    Swal.fire({
+        position: "top",
+        title: "Mensaje enviado",
+        timerProgressBar: true,
+        showConfirmButton: false,
+        timer: 1300,
+        customClass: {
+            popup: style.popu,
+            title: style.title,
+        },
+        showClass: {
+            popup: 'animate__animated animate__zoomIn',
+        },
+        hideClass: {
+            popup: 'animate__animated animate__zoomOut',
+        }
+    })
+    emailjs
+        .sendForm('service_7gbt22s', 'template_aiyse4w', form.current, {
+        publicKey: 'FyzzoJKpmfyOJ4A1c',
+        })
+        .then(
+        () => {
+            form.current.reset()
+        },
+        (error) => {
+            console.log('FAILED...', error.text);
+        },
+        );
+    };
 
     const { isDarkMode } = useTheme();
 
@@ -46,16 +84,16 @@ const Contact = () => {
             </div>
 
             <div className={style.formulario}>
-            <form action="https://formsubmit.co/bc36ffb4b725ab9065f00668e176bc92" method='POST' className={style.form}>
+            <form ref={form} onSubmit={sendEmail} className={style.form} >
 
                 <label htmlFor="sendMe" className={style.send}>Enviame un mensaje </label>
-                <input type="text" name="name" placeholder='Nombre' autoComplete='off' required></input>
+                <input type="text" name="user_name" placeholder='Nombre' autoComplete='off' required></input>
 
-                <input type="email" name="email" placeholder='Email' autoComplete='off' required></input>
+                <input type="email" name="user_email" placeholder='Email' autoComplete='off' required></input>
 
-                <textarea name="mensaje" cols="50" rows="10" placeholder='Mensaje' autoComplete='off' required></textarea>
+                <textarea name="message" cols="50" rows="10" placeholder='Mensaje' autoComplete='off' required></textarea>
 
-                <button type="submit" className={style.btn}>Enviar</button>
+                <button type="submit" className={style.btn} value="send">Enviar</button>
 
                 <input type="hidden" name="_next" value="http://localhost:5173"></input>
                 <input type="hidden" name="_captcha" value="false"></input>
