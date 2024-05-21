@@ -1,5 +1,8 @@
 import style from '../Contact/Contact.module.css'
 import { useTheme } from '../../Context/Theme';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Contact = () => {
 
@@ -9,7 +12,7 @@ const Contact = () => {
 
     return(
 
-        <div className={style.contact} id="contact">
+        <div className={style.contact} id="contact" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
 
             <div className={style.media}>
                 <span>Contactame</span>
