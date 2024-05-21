@@ -9,7 +9,7 @@ const Contact = () => {
 
     return(
 
-        <div className={style.contact}>
+        <div className={style.contact} id="contact">
 
             <div className={style.media}>
                 <span>Contactame</span>

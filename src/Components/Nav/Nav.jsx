@@ -22,7 +22,7 @@ const Nav = () => {
                 <ul>
                     <li><a href="#">Sobre Mi</a></li>
                     <li className={style.modi}><a href="#">Proyectos</a></li>
-                    <li className={style.modi}><a href="#">Contactame</a></li>
+                    <li className={style.modi}><a href="#contact">Contactame</a></li>
                 </ul>
             </div>
 
