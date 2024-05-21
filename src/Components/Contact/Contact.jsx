@@ -11,8 +11,7 @@ const Contact = () => {
     const currentColor = isDarkMode ? "white" : "black";
 
     return(
-
-        <div className={style.contact} id="contact" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+        <div className={style.contact} id="contact" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="50">
 
             <div className={style.media}>
                 <span>Contactame</span>
