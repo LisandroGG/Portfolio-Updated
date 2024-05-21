@@ -43,6 +43,7 @@
         border-radius: .5rem;
         border: 2px solid var(--form);
         background-color: var(--content_background);
+        color: var(--text);
 
         &:focus{
             outline: none;
