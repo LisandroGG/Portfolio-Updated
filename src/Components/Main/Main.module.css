@@ -14,7 +14,7 @@
 }
 
 .title{
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
     min-width: 47rem;
     max-width: 47rem;
     text-align: left;
@@ -93,7 +93,6 @@
 
 @media(500px > width){
     .title{
-        margin-bottom: 5vh;
         max-width: 20rem;
         min-width: 20rem;
 
