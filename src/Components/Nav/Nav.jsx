@@ -1,5 +1,6 @@
 import style from '../Nav/Nav.module.css'
 import lisandro from '/img/foto.png'
+import lisandro2 from '/img/foto2.png'
 import { useTheme } from '../../Context/Theme';
 
 
@@ -7,11 +8,13 @@ const Nav = () => {
 
     const { isDarkMode, toggleTheme } = useTheme();
 
+    const currentImg = isDarkMode ? `${lisandro2}` : `${lisandro}`
+
     return(
         <div className={style.nav}>
 
             <div className={style.container}>
-                <span className={style.img}><img src={lisandro} width='47px' alt='Lisandro foto'></img></span>
+                <span className={style.img}><img src={currentImg} width='47px' alt='Lisandro foto'></img></span>
                 <span className={style.name}>
                     <span style={{fontWeight: '700', fontSize: '18px'}}>Lisandro Pereyra</span>
                     <span style={{fontWeight: '400', fontSize: '13px'}}>Fullstack Developer ✨</span>

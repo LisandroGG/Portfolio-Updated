@@ -8,17 +8,33 @@ const Main = () => {
 
     const { isDarkMode } = useTheme();
 
+    const currentColor = isDarkMode ? "#161b28" : "#ffffff"
+
+    const icons = isDarkMode ? "#00ff00c2" : "#00aaff";
+
     return(
         <div className={style.main}>
             <div className={style.container}>
+                <div className={style.title}>
+                <h1 data-aos="fade-right" data-aos-easing="ease-in-sine">Lisandro Pereyra</h1>
+                <h2 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="300">Full Stack Developer</h2>
+                <h3 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="600" className={style.hidden2}>¡Hola! Soy un <b>Desarrollador web </b> especializado en <b>frontend</b>, con una pasión particular por crear experiencias de usuario excepciones utilizando <b>React.</b></h3>
+                <h3 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="600" className={style.hidden}>¡Hola! Soy un <b>Desarrollador web </b> especializado en <b>frontend</b> utilizando <b>React.</b></h3>
 
+                <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="900" className={style.btn}>
+                    <a href="https://github.com/LisandroGG" target='_blank'><span>Linkedin<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 -3 20 24"><path fill={icons} d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg></span></a>
+                    <a href="https://www.linkedin.com/in/lisandro-pereyra-18503626a/" target='_blank'><span>Github<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 -3 20 24" ><path fill={icons} fillRule="evenodd" clipRule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg></span></a>
+                </div>
+                </div>
             </div>
-                    <div style={{overflow: 'hidden'}}>
+
+
+            <div style={{overflow: 'hidden'}}>
                 <svg
                     preserveAspectRatio="none"
                     viewBox="0 0 1200 120"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ fill: '#ffffff', width: '100%', height: 150, rotate: '180deg' }}
+                    style={{ fill: `${currentColor}`, width: '100%', height: 150, rotate: '180deg' }}
                 >
                     <path
                     d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"

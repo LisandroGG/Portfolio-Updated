@@ -3,14 +3,109 @@
     flex-direction: column;
     height: 92vh;
     background-color: var(--main);
-   
 }
 
 .container{
-    border: 1px solid blue;
     height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.title{
+    margin-bottom: 20vh;
+    min-width: 47rem;
+    max-width: 47rem;
+    text-align: left;
+
+    .hidden{
+        display: none;
+    }
+
+    h1{ 
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text3)
+    }
+
+    h2{
+        margin-top: .5rem;
+        font-size: 2.5rem;
+        color: var(--text)
+    }
+
+    h3{
+        margin-top: .3rem;
+        font-weight: 400;
+        color: var(--text)
+    }
+}
+
+.btn{
+    display: flex;
+    margin: 3rem 0rem 0rem 0rem;
+    gap: 2rem;
+
+    a{
+        text-decoration: none;
+
+        span{
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 8px;
+            border-radius: 10px;
+            border: 2px solid var(--text3);
+            color: var(--text3);
+
+            &:hover{
+                transition: all .5s;
+                background-color: var(--text3);
+                color: var(--text);
+
+            svg path{
+                transition: all .5s;
+                fill: var(--text)
+            }
+        }
+        }
+    }
+}
+
+@media(770px > width){
+    .container{
+        align-items: center;
+    }
+
+    .title{
+        border: 1px solid blue;
+        min-width: 30rem;
+        max-width: 30rem;
+
+        .hidden2{
+            display: none;
+        }
+
+        .hidden{
+            display: block;
+        }
+    }
+}
+
+@media(500px > width){
+    .title{
+        max-width: 20rem;
+        min-width: 20rem;
+
+        h2{
+            font-size: 2rem;
+        }
+    }
+
+    .btn{
+        justify-content: center;
+    }
+}
 
 
 

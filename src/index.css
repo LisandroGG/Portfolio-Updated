@@ -4,12 +4,10 @@
   --border: #84848f6b;
   --text: black;
   --text2: white;
+  --text3: #00aaff;
   --nav_hover: #e6e8eb;
   --form: #19e619;
-  --form_hover: rgb(4, 220, 4);
-  --gradient: linear-gradient(to left, #00ff00c2, #00aaff);
-  --lin: #00aaff;
-  --git: #19e619;
+  --form_hover: #04dc04;
   --main: #dedede;
 }
 
@@ -22,9 +20,7 @@
   --nav_hover:#161b28;
   --form: #00ff00;
   --form_hover: #00ff00c2;
-  --gradient: linear-gradient(to right, #00ff00c2, #00aaff);
-  --lin: #00ff00c2;
-  --git: #00aaff;
+  --text3: #00ff00;
   --main: #232530
 }
 
