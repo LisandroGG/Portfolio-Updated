@@ -6,7 +6,9 @@ const About = () => {
     const { isDarkMode, toggleTheme } = useTheme();
 
     return(
-        <div id="about">About</div>
+        <div id="about">
+            
+        </div>
     )
 }
 

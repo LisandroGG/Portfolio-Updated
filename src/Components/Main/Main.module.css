@@ -1,0 +1,90 @@
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    text-align: left;
+    width: 40vw;
+
+    margin: 0rem 0rem 15rem 0rem;
+
+    h1{
+        font-size: 2rem;
+        font-weight: 700;
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    h2{
+        margin-top: 20px;
+        font-size: 3rem;
+        color: var(--text);
+    }
+
+    h3{
+        margin-top: 10px;
+        color: var(--text);
+        font-weight: 400;
+    }
+}
+
+.btn{
+    display: flex;
+    margin: 3rem 0rem 0rem 0rem;
+    gap: 2rem;
+    width: auto;
+
+        a{
+            text-decoration: none;
+
+            span{
+                font-size: 1.2rem;
+                font-weight: 500;
+                padding: 8px;
+                border-radius: 10px;
+
+                &:hover{
+                svg path{
+                    transition: all .5s;
+                    fill: var(--text2)
+                }
+            }
+            }
+        }
+    }
+
+.lin{
+    border: 2px solid var(--lin);
+    color: var(--lin);
+
+    &:hover{
+        transition: all .5s;
+        background-color: var(--lin);
+        color: var(--text2)
+    }
+}
+
+.git{
+    border: 2px solid var(--git);
+    color: var(--git);
+
+    &:hover{
+        transition: all .5s;
+        background-color: var(--git);
+        color: var(--text2)
+    }
+}
+
+@media (638px > width){
+    .btn{
+        display: none;
+    }
+}
+
+
