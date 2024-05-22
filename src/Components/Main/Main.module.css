@@ -8,6 +8,14 @@
     background-color: var(--main);
 }
 
+.celu{
+    display: none;
+}
+
+.cel{
+    display: none;
+}
+
 .container{
     text-align: left;
     width: 40vw;
@@ -89,6 +97,11 @@
 }
 
 @media (638px > width){
+
+    .celu{
+        display: block;
+    }
+    
     .btn{
         flex-direction: column;
         align-items: normal;
@@ -100,12 +113,11 @@
         margin: 2rem;
 
         h1{
-            font-size: 30px;
-            color: var(--text)
+            font-size: 25px;
         }
 
         h2{
-            font-size: 25px;
+            font-size: 20px;
             margin-top: 1rem;
         }
         h3{
@@ -121,7 +133,7 @@
     .svg{display: none;}
 
     .main{
-        padding-top: 2rem;
+        padding-top: 1rem;
         display: flex;
         justify-content: normal;
         align-items: center;
@@ -140,19 +152,13 @@
             display: block;
         }
     }
+
+    
 }
 
 @media (1147px > width){
 
-    .container{
-        
-        h3{
-            display: none;
-        }
-        .cel{
-            display: block;
-        }
-    }
+    
 
     .main{
         height: 73vh;
@@ -160,6 +166,9 @@
 }
 
 @media(336px > width){
+
+    .svg{display: none;}
+
     .main{
         padding-top: 0rem;
         padding-bottom: 10vh;
