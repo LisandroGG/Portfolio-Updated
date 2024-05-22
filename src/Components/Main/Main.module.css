@@ -84,11 +84,15 @@
     }
 }
 
+.svg{
+    overflow: hidden;
+}
+
 @media (638px > width){
     .btn{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: normal;
+        justify-content: normal;
     }
 
     .container{
@@ -96,6 +100,7 @@
 
         h1{
             font-size: 35px;
+            color: var(--text)
         }
 
         h2{
@@ -109,8 +114,9 @@
     }
 
     .main{
+        padding-top: 5rem;
         display: flex;
-        justify-content: center;
+        justify-content: normal;
         align-items: center;
         height: 60vh;
     }
