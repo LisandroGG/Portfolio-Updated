@@ -1,178 +1,18 @@
 .main{
-    padding-top: 10rem;
     display: flex;
-    justify-content: center;
-    height: 68vh;
-    align-items: center;
     flex-direction: column;
+    height: 92vh;
     background-color: var(--main);
-}
-
-.celu{
-    display: none;
-}
-
-.cel{
-    display: none;
+   
 }
 
 .container{
-    text-align: left;
-    width: 40vw;
-    margin: 0rem 0rem 15rem 0rem;
-
-    h1{
-        font-size: 2rem;
-        font-weight: 700;
-        background: var(--gradient);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-    }
-
-    h2{
-        margin-top: .5rem;
-        font-size: 3rem;
-        color: var(--text);
-    }
-
-    h3{
-        margin-top: .3rem;
-        color: var(--text);
-        font-weight: 400;
-    }
+    border: 1px solid blue;
+    height: 82vh;
 }
 
-.btn{
-    display: flex;
-    margin: 3rem 0rem 0rem 0rem;
-    gap: 2rem;
-    width: auto;
-    
 
-        a{
-            text-decoration: none;
 
-            span{
-                font-size: 1.2rem;
-                font-weight: 500;
-                padding: 8px;
-                border-radius: 10px;
 
-                &:hover{
-                svg path{
-                    transition: all .5s;
-                    fill: var(--text2)
-                }
-            }
-            }
-        }
-    }
-
-.lin{
-    border: 2px solid var(--lin);
-    color: var(--lin);
-    
-
-    &:hover{
-        transition: all .5s;
-        background-color: var(--lin);
-        color: var(--text2)
-    }
-}
-
-.git{
-    border: 2px solid var(--git);
-    color: var(--git);
-
-    &:hover{
-        transition: all .5s;
-        background-color: var(--git);
-        color: var(--text2)
-    }
-}
-
-.svg{
-    overflow: hidden;
-}
-
-@media (638px > width){
-
-    .celu{
-        display: block;
-    }
-    
-    .btn{
-        flex-direction: column;
-        align-items: normal;
-        justify-content: normal;
-    }
-
-    .container{
-        text-align: center;
-        margin: 2rem;
-
-        h1{
-            font-size: 25px;
-        }
-
-        h2{
-            font-size: 20px;
-            margin-top: 1rem;
-        }
-        h3{
-            display: none;
-            margin-top: 18px;
-        }
-
-        .cel{
-            display: block;
-        }
-    }
-
-    .svg{display: none;}
-
-    .main{
-        padding-top: 1rem;
-        display: flex;
-        justify-content: normal;
-        align-items: center;
-        height: 20vh;
-    }
-}
-
-@media(900px > width){
-
-    .container{
-        
-        h3{
-            display: none;
-        }
-        .cel{
-            display: block;
-        }
-    }
-
-    
-}
-
-@media (1147px > width){
-
-    
-
-    .main{
-        height: 73vh;
-    }
-}
-
-@media(336px > width){
-
-    .svg{display: none;}
-
-    .main{
-        padding-top: 0rem;
-        padding-bottom: 10vh;
-    }
-}
 
 
