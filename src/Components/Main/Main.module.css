@@ -112,6 +112,10 @@
             display: none;
             margin-top: 18px;
         }
+
+        .cel{
+            display: block;
+        }
     }
 
     .main{
@@ -123,15 +127,33 @@
     }
 }
 
-@media(800px > width){
-    .main{
-        height: 65vh;
+@media(900px > width){
+
+    .container{
+        
+        h3{
+            display: none;
+        }
+        .cel{
+            display: block;
+        }
     }
 }
 
 @media (1147px > width){
+
+    .container{
+        
+        h3{
+            display: none;
+        }
+        .cel{
+            display: block;
+        }
+    }
+
     .main{
-        height: 75vh;
+        height: 73vh;
     }
 }
 
