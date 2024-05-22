@@ -93,15 +93,16 @@
         text-align: center;
 
         h1{
-            font-size: 2.2rem;
+            font-size: 35px;
         }
 
         h2{
-            font-size: 1.5rem;
+            font-size: 30px;
             margin-top: 1rem;
         }
         h3{
-            margin-top: 4rem;
+            display: none;
+            margin-top: 18px;
         }
     }
 
@@ -109,7 +110,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 60vh;
+    }
+}
+
+@media(800px > width){
+    .main{
+        height: 65vh;
+    }
+}
+
+@media (1147px > width){
+    .main{
+        height: 75vh;
     }
 }
 
