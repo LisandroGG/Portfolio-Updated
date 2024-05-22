@@ -27,7 +27,7 @@ const Main = () => {
             <div style={{overflow: 'hidden', margin: '0', padding: '0'}}>
   <svg
     preserveAspectRatio="none"
-    viewBox= "0 0 1200 120"
+    viewBox= "0 0 1200 110"
     xmlns="http://www.w3.org/2000/svg"
     style={{ fill: `${currentColor}`, width: '99.5vw', height: 157, transform: 'rotate(180deg)' }}
   >
