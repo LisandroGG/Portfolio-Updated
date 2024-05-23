@@ -129,3 +129,19 @@
         }
     }
 }
+
+@media(500px > width){
+
+    .about{
+        height: 120vh;
+    }
+
+    .tech{
+
+
+        img{
+            width: 3rem;
+        }
+    }
+
+}
