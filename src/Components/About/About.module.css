@@ -2,6 +2,7 @@
     margin-top: 5rem;
     display: flex;
     height: 90vh;
+    padding-bottom: 100px;
 }
 
 .container{
@@ -92,6 +93,10 @@
 
 
 @media(900px > width){
+
+    .about{
+        height: 110vh;
+    }
 
     .container{
         flex-direction: column;
