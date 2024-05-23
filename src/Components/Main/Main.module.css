@@ -61,11 +61,11 @@
             &:hover{
                 transition: all .5s;
                 background-color: var(--text3);
-                color: var(--text);
+                color: var(--text2);
 
             svg path{
                 transition: all .5s;
-                fill: var(--text)
+                fill: var(--text2)
             }
         }
         }
