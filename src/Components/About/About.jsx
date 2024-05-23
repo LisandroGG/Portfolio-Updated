@@ -18,17 +18,14 @@ const About = () => {
     useEffect(() => {
         const handleOutsideClick = (event) => {
             if (containerRef.current && !containerRef.current.contains(event.target)) {
-                // Click outside of container, close all dropdowns
                 setOpenAbout(false);
                 setOpenSkills(false);
                 setOpenGoals(false);
             }
         };
 
-        // Add event listener when component mounts
         document.addEventListener("mousedown", handleOutsideClick);
 
-        // Clean up event listener when component unmounts
         return () => {
             document.removeEventListener("mousedown", handleOutsideClick);
         };

@@ -90,11 +90,20 @@
     }
 }
 
+@media(1000px > width){
+    .tech{
+        justify-content: center;
+
+        img{
+            width: 5.5rem;
+        }
+    }
+}
 
 @media(900px > width){
 
     .about{
-        height: 110vh;
+        height: 90vh;
     }
 
     .container{
@@ -123,6 +132,7 @@
 
     .title{
         font-size: 1rem;
+        margin-top: 3rem;
     }
 
     .tech{
@@ -148,7 +158,7 @@
 @media(500px > width){
 
     .about{
-        height: 120vh;
+        height: 110vh;
         padding-bottom: 0px;
     }
 
@@ -157,6 +167,23 @@
 
         img{
             width: 3rem;
+        }
+    }
+
+}
+
+@media(350px > width){
+
+    .about{
+        height: 150vh;
+        padding-bottom: 0px;
+    }
+
+    .tech{
+
+
+        img{
+            width: 2rem;
         }
     }
 
