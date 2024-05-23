@@ -6,7 +6,7 @@ const Projects = () => {
     const { isDarkMode, toggleTheme } = useTheme();
 
     return(
-        <div id="projects">Projects</div>
+        <div id="projects" className={style.project}>Projects</div>
     )
 }
 

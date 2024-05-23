@@ -103,7 +103,7 @@
 @media(900px > width){
 
     .about{
-        height: 90vh;
+        height: 95vh;
     }
 
     .container{
@@ -139,7 +139,7 @@
         justify-content: center;
 
         img{
-            width: 5.5rem;
+            width: 3.5rem;
         }
     }
 }
@@ -175,7 +175,7 @@
 @media(350px > width){
 
     .about{
-        height: 150vh;
+        height: 100vh;
         padding-bottom: 0px;
     }
 
@@ -183,7 +183,7 @@
 
 
         img{
-            width: 2rem;
+            width: 2.3rem;
         }
     }
 
