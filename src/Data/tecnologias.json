@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "HTML",
+        "imagen": "https://www.svgrepo.com/show/349402/html5.svg"
+    },
+    {
+        "nombre": "CSS",
+        "imagen": "https://www.svgrepo.com/show/349330/css3.svg"
+    },
+    {
+        "nombre": "JAVASCRIPT",
+        "imagen": "https://www.svgrepo.com/show/353925/javascript.svg"
+    },
+    {
+        "nombre": "REACT",
+        "imagen": "https://www.svgrepo.com/show/493719/react-javascript-js-framework-facebook.svg"
+    },
+    {
+        "nombre": "REDUX",
+        "imagen": "https://www.svgrepo.com/show/452093/redux.svg"
+    },
+    {
+        "nombre": "VITE",
+        "imagen": "https://www.svgrepo.com/show/374167/vite.svg"
+    },
+    {
+        "nombre": "TAILWIND",
+        "imagen": "https://www.svgrepo.com/show/374118/tailwind.svg"
+    },
+    {
+        "nombre": "POSTGRES",
+        "imagen": "https://www.svgrepo.com/show/354200/postgresql.svg"
+    },
+    {
+        "nombre": "SEQUELIZE",
+        "imagen": "https://www.svgrepo.com/show/374071/sequelize.svg"
+    }
+]
