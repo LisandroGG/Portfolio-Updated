@@ -2,7 +2,6 @@
     margin-top: 5rem;
     display: flex;
     height: 90vh;
-    padding-bottom: 100px;
 }
 
 .container{
@@ -135,10 +134,22 @@
     }
 }
 
+@media(700px > width){
+    .about{
+        height: 110vh;
+        padding-bottom: 0px;
+    }
+
+    .tech img{
+        width: 4rem;
+    }
+}
+
 @media(500px > width){
 
     .about{
         height: 120vh;
+        padding-bottom: 0px;
     }
 
     .tech{
