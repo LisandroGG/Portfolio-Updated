@@ -59,7 +59,7 @@ const About = () => {
                 <div className={style.section1} ref={containerRef}>
                     <img src={currentImg} alt='Mi foto' data-aos="zoom-in" data-aos-delay="100"></img>
                     <div className={style.info} >
-                        <div className={style.dropdown} onClick={handleOpenAbout} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="100">
+                        <div className={style.dropdown} onClick={handleOpenAbout} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="75">
                             <h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -4 26 26"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm3.493 6a1.494 1.494 0 1 1-.001 2.987A1.494 1.494 0 0 1 15.493 8zM8.5 8a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 8.5 8zM12 18c-5 0-6-5-6-5h12s-1 5-6 5z"></path></svg>¿Quien soy?</h1>
                             {
                                 openAbout && <div className={style.content}>
@@ -67,7 +67,7 @@ const About = () => {
                                 </div>
                             }
                         </div>
-                        <div className={style.dropdown} onClick={handleOpenSkills} data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"data-aos-delay="200">
+                        <div className={style.dropdown} onClick={handleOpenSkills} data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"data-aos-delay="175">
                             <h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -3 24 24"><path d="M3 16h2v5H3zm4-3h2v8H7zm4-3h2v11h-2zm4-3h2v14h-2z"></path></svg>Mis habilidades</h1>
                             {
                                 openSkills && <div className={style.content}>
@@ -75,7 +75,7 @@ const About = () => {
                                 </div>
                             }
                         </div>
-                        <div className={style.dropdown} onClick={handleOpenGoals} data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" data-aos-delay="300">
+                        <div className={style.dropdown} onClick={handleOpenGoals} data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" data-aos-delay="275">
                             <h1><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -4 26 26"><path d="M20.98 11.802a.995.995 0 0 0-.738-.771l-6.86-1.716 2.537-5.921a.998.998 0 0 0-.317-1.192.996.996 0 0 0-1.234.024l-11 9a1 1 0 0 0 .39 1.744l6.719 1.681-3.345 5.854A1.001 1.001 0 0 0 8 22a.995.995 0 0 0 .6-.2l12-9a1 1 0 0 0 .38-.998z"></path></svg>¿Que estoy buscando?</h1>
                             {
                                 openGoals && <div className={style.content}>
@@ -86,13 +86,13 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className={style.section2}>
-                    <div className={style.title} data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
+                <div className={style.section2} data-aos="zoom-in" data-aos-delay="300">
+                    <div className={style.title}>
                         <h1>Mis tecnologias</h1>
                     
                     <div className={style.tech}>
                         {tecnologias.map((tecnologia, index) => (
-                            <img key={index} src={tecnologia.imagen} alt={tecnologia.nombre} data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay={100 + index * 100}></img>
+                            <img key={index} src={tecnologia.imagen} alt={tecnologia.nombre}></img>
                         ))}
                     </div>
                     </div>
