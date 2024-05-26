@@ -87,7 +87,7 @@ const About = () => {
                 </div>
 
                 <div className={style.section2}>
-                    <div className={style.title} data-aos="zoom-in" data-aos-delay="200">
+                    <div className={style.title} data-aos="zoom-in" data-aos-delay="300">
                         <h1>Mis tecnologias</h1>
                     
                     <div className={style.tech}>
