@@ -86,13 +86,13 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className={style.section2} data-aos="zoom-in" data-aos-delay="300">
-                    <div className={style.title}>
+                <div className={style.section2}>
+                    <div className={style.title} data-aos="zoom-in" data-aos-delay="200">
                         <h1>Mis tecnologias</h1>
                     
                     <div className={style.tech}>
                         {tecnologias.map((tecnologia, index) => (
-                            <img key={index} src={tecnologia.imagen} alt={tecnologia.nombre}></img>
+                            <img key={index} src={tecnologia.imagen} alt={tecnologia.nombre} data-aos="zoom-in"  data-aos-delay={100 + index * 100}></img>
                         ))}
                     </div>
                     </div>
