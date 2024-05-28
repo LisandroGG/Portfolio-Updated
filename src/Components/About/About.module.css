@@ -147,7 +147,7 @@
 
 @media(700px > width){
     .about{
-        height: 110vh;
+        height: 100vh;
         padding-bottom: 0px;
     }
 
@@ -159,7 +159,7 @@
 @media(500px > width){
 
     .about{
-        height: 110vh;
+        height: 100vh;
         padding-bottom: 0px;
     }
 

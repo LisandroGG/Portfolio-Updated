@@ -1,0 +1,41 @@
+[
+    {
+        "nombre" : "Dolarizate",
+        "tipo": "Front-end",
+        "imagen": "https://i.imgur.com/vgsOX4a.png",
+        "descripcion": "Este proyecto es una página para visualizar el precio de compra/venta de los dólares, en la cual podemos ver diferentes tipos de dólares y sus datos tales como, nombre, compra, venta y fecha de actualización.",
+        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX"],
+        "demo": "https://dolarizate.vercel.app/",
+        "repo": "https://github.com/LisandroGG/Dolarizate"
+    },
+
+    {
+        "nombre": "AniWind",
+        "tipo": "Front-end",
+        "imagen": "https://i.imgur.com/wB4VGJZ.png",
+        "descripcion": "Este proyecto es una página, donde el cliente quería poder subir videos separándolos por categorías y funcionaba como un blog personal. Yo trabajé toda la parte de la lógica y visual.",
+        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX"],
+        "demo": "https://ani-wind.vercel.app/",
+        "repo": "https://github.com/LisandroGG/AniWind"
+    },
+
+    {
+        "nombre" : "The Literary corner",
+        "tipo": "Front-end",
+        "imagen": "https://i.imgur.com/LlmQhSv.png",
+        "descripcion": "Este E-commerce consiste en una página para vender productos a clientes, donde ellos podían buscar su libro por nombre, autor y género. Contaba con una vista administrativa, el cual podía ver los usuarios, compras y los libros.",
+        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "SWEETALERT2"],
+        "demo": "",
+        "repo": "https://github.com/lordbattle/PF-Henry-Bookstore"
+    },
+    
+    {
+        "nombre" : "Henry's food",
+        "tipo": "Full-Stack",
+        "imagen": "https://i.imgur.com/O0iF0xi.png",
+        "descripcion": "Este proyecto consiste en una página donde el visitante puede buscar recetas de comida, mediante su nombre y dieta, dando a detalle los procedimientos, alimentos y tiempos necesarios para llevarla a cabo.",
+        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "EXPRESS", "SEQUELIZE", "NODE", "POSTGRESQL"],
+        "demo": "",
+        "repo": "https://github.com/LisandroGG/HENRY_FOOD_BACK"
+    }
+]

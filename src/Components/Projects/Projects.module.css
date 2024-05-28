@@ -1,3 +1,119 @@
 .project{
-    margin-top: 5rem;
+    margin-top: 11rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.title{
+    font-size: 4rem;
+    color: var(--text);
+    font-weight: 700;
+    text-align: center;
+    color: var(--text3);
+}
+
+.container{
+    padding-top: 5rem;
+    overflow: auto;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tecnologias{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 6vh;
+    
+    span{
+        height: 2vh;
+        font-size: .8rem;
+        background-color: var(--body_background);
+        padding: 4px;
+        border-radius: 5px;
+        color: var(--text3);
+        border: 1px solid var(--text3);
+    }
+}
+
+.card{
+    margin-bottom: 15px;
+    background-color: var(--card);
+    width: 350px;
+    height: 60vh;
+    border-radius: 15px;
+    color: var(--text);
+    box-shadow: 7px 7px 5px 0px var(--main);
+    -webkit-box-shadow: 7px 7px 5px 0px var(--main);
+    -moz-box-shadow: 7px 7px 5px 0px var(--main);
+
+    img{
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+        height: 20vh;
+    }
+
+    h2{
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: var(--text3);
+        font-weight: 700;
+    }
+
+    h3{
+        padding-left: 10px;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        color: var(--form_hover);
+        font-weight: 600;
+    }
+
+    h4{
+        padding-left: 10px;
+        padding-bottom: 5px;
+        height: 17vh;
+        text-wrap: balance;
+        font-weight: 500;
+    }
+}
+
+.btns{
+    margin-top: 2vh;
+    float: right;
+    margin-right: 5px;
+
+    button{
+        font-weight: 700;
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 2px solid var(--text3);
+        color: var(--text3);
+        background-color: var(--body_background);
+
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover{
+            transition: all .5s;
+            background-color: var(--text3);
+            color: var(--text2);
+
+        svg path{
+            transition: all .5s;
+            fill: var(--text2)
+        }
+    }
+}
+}
+

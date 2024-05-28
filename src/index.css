@@ -9,6 +9,7 @@
   --form: #00aaff;
   --form_hover: #089ce6e7;
   --main: #dedede;
+  --card: #efefef;
 }
 
 [data-theme="dark"] {
@@ -22,6 +23,7 @@
   --form_hover: #00ff00c2;
   --text3: #00ff00;
   --main: #232530;
+  --card: #232530;
 }
 
 
