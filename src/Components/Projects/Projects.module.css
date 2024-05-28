@@ -124,3 +124,15 @@
     }
 }
 
+@media (330px > width){
+    .project{
+        margin-top: 24rem;
+    }
+    .card{
+        height: 80vh;
+    }
+    .tecnologias{
+        margin-top: 4.5rem;
+    }
+}
+
