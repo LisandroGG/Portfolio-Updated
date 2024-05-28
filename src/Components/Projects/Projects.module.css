@@ -136,3 +136,9 @@
     }
 }
 
+@media (700px > height){
+    .card{
+        height: 80vh;
+    }
+}
+
