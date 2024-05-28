@@ -118,3 +118,9 @@
 }
 }
 
+@media (450px > width){
+    .project{
+        margin-top: 18rem;
+    }
+}
+
