@@ -18,6 +18,15 @@
         "demo": "https://ani-wind.vercel.app/",
         "repo": "https://github.com/LisandroGG/AniWind"
     },
+    {
+        "nombre": "Artesanias Kalesa",
+        "tipo": "Fullstack",
+        "imagen": "https://i.imgur.com/PXXMoON.png",
+        "descripcion": "Poryecto galeria de trabajos, consiste en un home que muestra todos los trabajos, tambien tiene un dashboard de admin para subir/borrar trabajos, seccion de contacto y mensaje whatsapp",
+        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "EXPRESS", "SEQUELIZE", "NODE", "POSTGRESQL"],
+        "demo": "https://artesanias-kalesa.vercel.app/",
+        "repo": "https://github.com/LisandroGG/Artesanias-Kalesa-Front"
+    },
 
     {
         "nombre" : "The Literary corner",
