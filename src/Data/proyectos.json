@@ -22,9 +22,9 @@
         "nombre": "Artesanias Kalesa",
         "tipo": "Fullstack",
         "imagen": "https://i.imgur.com/PXXMoON.png",
-        "descripcion": "Poryecto galeria de trabajos, consiste en un home que muestra todos los trabajos, tambien tiene un dashboard de admin para subir/borrar trabajos, seccion de contacto y mensaje whatsapp",
+        "descripcion": "Poryecto galeria de trabajos, consiste en un home que muestra todos los trabajos, tambien tiene un dashboard de admin para subir/borrar trabajos, seccion de contacto y mensaje whatsapp.",
         "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "EXPRESS", "SEQUELIZE", "NODE", "POSTGRESQL"],
-        "demo": "https://artesanias-kalesa.vercel.app/",
+        "demo": "https://artesaniaskalesa.vercel.app/",
         "repo": "https://github.com/LisandroGG/Artesanias-Kalesa-Front"
     },
 
@@ -32,7 +32,7 @@
         "nombre" : "The Literary corner",
         "tipo": "Front-end",
         "imagen": "https://i.imgur.com/LlmQhSv.png",
-        "descripcion": "Este E-commerce consiste en una página para vender productos a clientes, donde ellos podían buscar su libro por nombre, autor y género. Ademas de su panel admin",
+        "descripcion": "Este E-commerce consiste en una página para vender productos a clientes, donde ellos podían buscar su libro por nombre, autor y género. Ademas de su panel admin.",
         "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "SWEETALERT2"],
         "demo": "",
         "repo": "https://github.com/lordbattle/PF-Henry-Bookstore"
