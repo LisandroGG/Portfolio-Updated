@@ -1,4 +1,13 @@
-[
+[   
+    {
+        "nombre": "BeYou",
+        "tipo": "Front-end",
+        "imagen": "https://i.imgur.com/k8UqOwl.png",
+        "descripcion": "Este proyecto es una pagina para un estudiante de diseño grafico que tenia que hacer una tienda ficticia de ropa y queria mostrarle mediante una pagina.",
+        "tecnologias": ["HTML", "JAVASCRIPT", "REACT", "TAILWIND"],
+        "demo": "https://tiendabeyou.vercel.app/",
+        "repo": "https://github.com/LisandroGG/Be-You"
+    },
     {
         "nombre" : "Dolarizate",
         "tipo": "Front-end",
