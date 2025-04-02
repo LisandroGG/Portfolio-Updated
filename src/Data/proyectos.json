@@ -4,7 +4,7 @@
         "tipo": "Full-Stack",
         "imagen": "https://i.imgur.com/bKmxZK3.jpeg",
         "descripcion": "Pagina web para poder controlar tus ingresos de forma gratuita. Organizá tu plata, sin poner plata.",
-        "tecnologias": ["HTML", "CSS", "JAVASCRIPT", "VITE", "REACT", "REDUX", "EXPRESS", "SEQUELIZE", "NODE", "POSTGRESQL"],
+        "tecnologias": ["HTML", "TAILWIND", "JAVASCRIPT", "VITE", "REACT", "REDUX", "EXPRESS", "SEQUELIZE", "NODE", "POSTGRESQL"],
         "demo": "https://gastocero.vercel.app/login",
         "repo": "https://github.com/LisandroGG/Gestor-financiero-back"
     },{
