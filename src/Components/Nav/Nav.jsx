@@ -30,7 +30,7 @@ const Nav = () => {
             </div>
 
             <div className={style.containerbtn}>
-                <a href='https://docs.google.com/document/d/1oz1mp9AqcTbX_tCzTXtXtG0f018a8PuE/edit?usp=sharing&ouid=114444473455443716196&rtpof=true&sd=true'  target='_blank' className={style.cv}>Descargar CV</a>
+                <a href='https://drive.google.com/file/d/1Bzgab2ZstKPQq9cqJ1L5yfQtJZjwndtg/view?usp=sharing' target='_blank' className={style.cv}>Descargar CV</a>
                 <button onClick={toggleTheme} className={style.mode}>
                 <span>Modo</span>
                 {isDarkMode ? 
